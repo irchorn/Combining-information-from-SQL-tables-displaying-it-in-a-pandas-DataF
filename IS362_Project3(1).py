@@ -41,7 +41,7 @@ db_connection = create_engine(db_connection_str)
 # In[45]:
 
 
-df = pd.read_sql('SELECT LastName, FirstName FROM Customer ORDER BY LastName, FirstName', con=db_connection)
+df = pd.read_sql('SELECT LastName, FirstName, Name, Title FROM Customer ORDER BY LastName, FirstName', con=db_connection)
 
 
 # In[41]:
