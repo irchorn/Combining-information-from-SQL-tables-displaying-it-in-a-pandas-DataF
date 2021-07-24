@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # IS 362 Project 3
+# # IS 362 Project 3 Combining information from a number of SQL tables, then displaying the information in a pandas DataFrame.
+
 
 # In[34]:
 
